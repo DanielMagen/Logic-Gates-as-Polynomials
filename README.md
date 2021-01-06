@@ -51,7 +51,7 @@ Moreover, it is not clear at all how one should even calculate all possible gate
 
 ### Naive approach
 Use a simple genetic algorithm to derive all equations.
-Start with a population of all monomials of the form `p^k*q^s` for `0<=k,s<=n-1`.
+Start with a population of all monomials of the form `b^k*a^s` for `0<=k,s<=n-1`.
 create an array of size n^(n^2) that would represent all possible gates.
 
 to demonstrate how each gate would be mapped to a different cell in the array we use the following example using ternary logic:
