@@ -1,0 +1,31 @@
+General formula for Binary logic with 2 inputs:
+
+x0 +
+a * (x0 + x1) +
+b * (x0 + x2) +
+a * b * (x0 + x1 + x2 + x3)
+
+
+General formula for Ternary logic with 2 inputs:
+
+x0 +
+a * (2 * x1 + x2) +
+b * (2 * x3 + x6) +
+a^2 * (2 * x0 + 2 * x1 + 2 * x2) +
+b^2 * (2 * x0 + 2 * x3 + 2 * x6) +
+a * b * (x4 + 2 * x5 + 2 * x7 + x8) +
+a^2 * b * (x3 + x4 + x5 + 2 * x6 + 2 * x7 + 2 * x8) +
+a * b^2 * (x1 + 2 * x2 + x4 + 2 * x5 + x7 + 2 * x8) +
+a^2 * b^2 * (x0 + x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8)
+
+
+General formula for Binary logic with 3 inputs:
+
+x0 +
+a * (x0 + x1) +
+b * (x0 + x2) +
+c * (x0 + x4) +
+a * b * (x0 + x1 + x2 + x3) +
+a * c * (x0 + x1 + x4 + x5) +
+b * c * (x0 + x2 + x4 + x6) +
+a * b * c * (x0 + x1 + x2 + x3 + x4 + x5 + x6 + x7)
