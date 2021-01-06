@@ -56,7 +56,7 @@ create an array of size n^(n^2) that would represent all possible gates.
 
 to demonstrate how each gate would be mapped to a different cell in the array we use the following example using ternary logic:
 
-| p | q | output |
+| b | a | output |
 |:-:|:-:|:------:|
 | 0 | 0 |    0   |
 | 0 | 1 |    1   |
@@ -104,7 +104,7 @@ now we can use `polynomial_basis` to get every gate polynomial.
 
 for example with n=3 and D=2 to get the polynomial corresponding to the gate
 
-| p | q | output |
+| b | a | output |
 |:-:|:-:|:------:|
 | 0 | 0 |    x_0   |
 | 0 | 1 |    x_1   |
